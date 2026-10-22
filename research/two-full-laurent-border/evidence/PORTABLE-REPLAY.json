@@ -1,0 +1,56 @@
+{
+  "dependencies": "Python standard library only",
+  "python": "3.14.5",
+  "rows": [
+    {
+      "exact_fresh_receipt_match": true,
+      "receipt": "evidence/LAURENT-BORDER.json",
+      "receipt_sha256": "0e1b1304fbea6a1cf61d9a3beaf2cdc9a0900abe7fd90a175c837f9836151cda",
+      "script": "verify_laurent_border.py",
+      "script_sha256": "6b8b4ddc946b9086fb17970bd31741dc2b0dae67965b38bec2159972b23bf3fc",
+      "stdout": "{\"status\": \"PASS_EXACT_LAURENT_BORDER_IDENTITY_NOT_A_BOUND\", \"controls\": 5, \"rank_surplus\": 96}"
+    },
+    {
+      "exact_fresh_receipt_match": true,
+      "receipt": "evidence/ACTUAL-MATRICES.json",
+      "receipt_sha256": "1247002448a66dee302166f8cecd5626de21ac7cdf9880dbf5f970d90d5f6711",
+      "script": "check_actual_matrices.py",
+      "script_sha256": "3838cbd91a62a547c3cf4de9d42476fd2f981952cb93543e7eb2502eeaafbdaa",
+      "stdout": "{\"status\": \"PASS_NATIVE_PHASE_LAURENT_BORDER_AND_COHERENT_INVERSE_NOT_A_BOUND\", \"fixtures\": 6, \"controls\": 6}"
+    },
+    {
+      "exact_fresh_receipt_match": true,
+      "receipt": "evidence/TWO-LEVEL-LAURENT.json",
+      "receipt_sha256": "a1edbd89a7c7d42edf793f26f006191ba2913e06a527afd0aae53f772ce9be33",
+      "script": "check_two_level.py",
+      "script_sha256": "ba3613ff7c7ae1b981d2266da12d506e9ec4f0bf972cd25068e75e554d40335c",
+      "stdout": "{\"status\": \"PASS_EXACT_TWO_LEVEL_LAURENT_DIAGNOSTIC_NOT_A_BOUND\", \"controls\": 4}"
+    },
+    {
+      "exact_fresh_receipt_match": true,
+      "receipt": "evidence/SPLIT-BUDGET.json",
+      "receipt_sha256": "f2e3d9ecaaf6123b2d9a61d4bf26a21d2ed541a1657cde736efcc7128ed9b515",
+      "script": "check_split_budget.py",
+      "script_sha256": "c61cb6d78254380526a9e3fe7d9b9084970c34c87fa1fe4963c9351b0fea856d",
+      "stdout": "{\"status\": \"PASS_EXACT_SPLIT_INVOICE_ONLY_NOT_A_BOUND\", \"root_lower\": \"242843778885460597663/50000000000000000000000\", \"root_upper\": \"485687557770921195327/100000000000000000000000\", \"margin\": [\"89550115507540027412848501761/3125000000000000000000000000\", \"28656036962412808772111520563521/1000000000000000000000000000000\"]}"
+    },
+    {
+      "exact_fresh_receipt_match": true,
+      "receipt": "evidence/SPLIT-ENDPOINT.json",
+      "receipt_sha256": "9877d9a333f0ea9c5723fb54ead5d0300b23ca247d5606a1993c02812759dcd5",
+      "script": "check_split_endpoint.py",
+      "script_sha256": "c814bcd22a45c7925eb6237e48fe02e04b621a2a02971825163d6801d954cb0e",
+      "stdout": "{\"status\": \"PASS_LITERAL_PHASE_PRESERVING_PAID_SPLIT\", \"cases\": 9, \"basis_columns\": 304}"
+    },
+    {
+      "exact_fresh_receipt_match": true,
+      "receipt": "evidence/DEPENDENCY-PIN-CONTROLS.json",
+      "receipt_sha256": "cbc619d2124a9765e20059cbe26f0a802979b17f75e680dfcd333b97ac86de77",
+      "script": "check_dependency_pins.py",
+      "script_sha256": "53ec7e7613efef39a40c8740e5db8724bc82cc70d71fdc30df33117fc0ce1ea5",
+      "stdout": "{\"status\": \"PASS_TWO_DEPENDENCY_PIN_CONTROLS\", \"controls\": 2}"
+    }
+  ],
+  "scope": "Fresh execution of the six documented local checkers; this does not rerun upstream native or Lean verification.",
+  "status": "PASS_SIX_PORTABLE_REPLAYS_MATCH_FROZEN_RECEIPTS"
+}

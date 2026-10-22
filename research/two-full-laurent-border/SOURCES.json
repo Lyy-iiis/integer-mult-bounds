@@ -1,0 +1,86 @@
+{
+  "assistance": "Substantial OpenAI Codex and multi-agent assistance",
+  "author": "Yiyang (@Lyy-iiis)",
+  "border_prior_work": {
+    "author": "Dillon (@dillona)",
+    "head": "fd5d3be12b9d6ee92c8fa089d95bd529c3236563",
+    "pr": 4623,
+    "scope": "Prior border controllers, interpolation and recovery costs; no novelty claim for border scaling.",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4623"
+  },
+  "coordination": {
+    "claim_url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/4611#discussioncomment-19129674",
+    "overlap_as_of_utc": "2026-10-22 18:00",
+    "read_sources": [
+      {
+        "head": "fd5d3be12b9d6ee92c8fa089d95bd529c3236563",
+        "pr": 4623
+      },
+      {
+        "discussion": 4611
+      }
+    ],
+    "reported_result": "No other active same-scope claim in the scoped search. This is not a novelty guarantee or a statement about later activity.",
+    "search_attribution": "Parent agent scoped overlap search"
+  },
+  "license": "Apache-2.0",
+  "original_artifacts": {
+    "PROOF.md": {
+      "provenance": "Parent-produced local research artifact; original receipts retained under evidence/original when available.",
+      "sha256": "b3053130a7f4159fd0cf1b95d8044ce17b0704ceb68a11817ff39ddc8191537d"
+    },
+    "check_actual_matrices.py": {
+      "provenance": "Parent-produced local research artifact; original receipts retained under evidence/original when available.",
+      "sha256": "cb7b517ea0018fc8bb0244c5572b5dc92c72ea9a7510bfa214ea7171cb6b99ab"
+    },
+    "check_split_budget.py": {
+      "provenance": "Parent-produced local research artifact; original receipts retained under evidence/original when available.",
+      "sha256": "c61cb6d78254380526a9e3fe7d9b9084970c34c87fa1fe4963c9351b0fea856d"
+    },
+    "check_split_endpoint.py": {
+      "provenance": "Parent-produced local research artifact; original receipts retained under evidence/original when available.",
+      "sha256": "c814bcd22a45c7925eb6237e48fe02e04b621a2a02971825163d6801d954cb0e"
+    },
+    "verify_laurent_border.py": {
+      "provenance": "Parent-produced local research artifact; original receipts retained under evidence/original when available.",
+      "sha256": "17df7e1a4da7dd8c6e6c2b4fbf8a1246232b23331520258247412267e43d2722"
+    }
+  },
+  "profile_source": {
+    "author": "Cao Yifan",
+    "head": "0ce1b5c9fb7163d0b2f0ac3db95fc418dbbcec62",
+    "pr": 4610,
+    "scope": "Frozen profile supplied by parent source audit; these local checkers do not replay the complete native/Lean package.",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/4610"
+  },
+  "public_adaptations": [
+    "Owned public script attribution uses Yiyang (@Lyy-iiis).",
+    "Exact matrix checker defaults to local vendored dependencies and validates both hashes before importing either.",
+    "New standalone two-level diagnostic uses Laurent q and its inverse without a finite-order relation.",
+    "Proof and README include the strict split invoice, typed endpoint argument, and remaining precision/compiler scope.",
+    "Documentation records the scientific main, scoped coordination/overlap search, and three explicit open questions. The precision-note author display is corrected; frozen vendor bytes are unchanged."
+  ],
+  "retained_precision_note": {
+    "adaptation": "Author display changed to Yiyang (@Lyy-iiis); mathematical text unchanged.",
+    "original_sha256": "428ebe18c89fede33db74dbcddb7c6921487f91ca6ad48b79be7b6ecb5beb6ad",
+    "path": "LAURENT-PRECISION.md",
+    "retained_byte_for_byte": false,
+    "sha256": "36dfd5f7144d8d25f2b16bb4a5edb9dd78a7af887614e55ff25477100d196f3b"
+  },
+  "scientific_main": "b58ad9ef4d4e861b0eaa5dba41742bdc072dca51",
+  "scope": "This is a local research evidence package. It does not claim a new admitted exponent, a complete native replay, recursive precision/owned-space coherence, or a new BIT result.",
+  "vendored_arithmetic": {
+    "path": "vendor/check_border_native_matrices.py",
+    "retained_byte_for_byte": true,
+    "sha256": "119d89830ebc28ba66bdff8a4fbeaa18a3a5d746f9f70d32652cd067e72077ea",
+    "used_scope": "Exact Gaussian-rational matrix arithmetic; the historical standalone CLI is not executed."
+  },
+  "vendored_engine": {
+    "inherited_path": "research/native-quotient-interface/v/research/t74-native-fast/vendor/native/new/code/borrow/vendor/clifford/clifford_exact.py",
+    "path": "vendor/clifford_exact.py",
+    "retained_byte_for_byte": true,
+    "scope": "Exact content pin of the inherited phase-preserving engine; no new authorship is assigned.",
+    "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "source_container_pr": 4654
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "checker_sha256": "53ec7e7613efef39a40c8740e5db8724bc82cc70d71fdc30df33117fc0ce1ea5",
+  "controls": [
+    {
+      "dependency": "check_border_native_matrices.py",
+      "original_sha256": "119d89830ebc28ba66bdff8a4fbeaa18a3a5d746f9f70d32652cd067e72077ea",
+      "rejected_by": "Exact arithmetic source pin",
+      "rejects_before_execution": true,
+      "successful_receipt_created": false
+    },
+    {
+      "dependency": "clifford_exact.py",
+      "original_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+      "rejected_by": "Inherited exact phase source pin",
+      "rejects_before_execution": true,
+      "successful_receipt_created": false
+    }
+  ],
+  "matrix_checker_sha256": "3838cbd91a62a547c3cf4de9d42476fd2f981952cb93543e7eb2502eeaafbdaa",
+  "scope": "Integrity controls for vendored source loading, not a native proof replay.",
+  "status": "PASS_TWO_DEPENDENCY_PIN_CONTROLS"
+}

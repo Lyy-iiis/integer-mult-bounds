@@ -1,0 +1,132 @@
+{
+  "all_column_argument": "For any positive f the contiguous coordinate sets of sizes part*f partition the original rank*f axes. In the pinned engine fourier is exactly the ordered product of Cgate(axis); concatenating the piece circuits gives the same literal list. Reverse list and adjoint each Cgate for inverse orientation. Therefore every phase and every input column agree for arbitrary f, not only tested widths.",
+  "checker_sha256": "c814bcd22a45c7925eb6237e48fe02e04b621a2a02971825163d6801d954cb0e",
+  "controls": {
+    "drop_last_rank2_piece_rejected": true,
+    "duplicate_whole_normalizer_changes_endpoint": true,
+    "wrong_last_piece_orientation_rejected": true
+  },
+  "engine_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+  "rows": [
+    {
+      "explicit_basis_columns": 16,
+      "fiber_columns": 1,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        1
+      ],
+      "rank": 4
+    },
+    {
+      "explicit_basis_columns": 0,
+      "fiber_columns": 2,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        1
+      ],
+      "rank": 4
+    },
+    {
+      "explicit_basis_columns": 0,
+      "fiber_columns": 3,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        1
+      ],
+      "rank": 4
+    },
+    {
+      "explicit_basis_columns": 32,
+      "fiber_columns": 1,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        2
+      ],
+      "rank": 5
+    },
+    {
+      "explicit_basis_columns": 0,
+      "fiber_columns": 2,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        2
+      ],
+      "rank": 5
+    },
+    {
+      "explicit_basis_columns": 0,
+      "fiber_columns": 3,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        2
+      ],
+      "rank": 5
+    },
+    {
+      "explicit_basis_columns": 256,
+      "fiber_columns": 1,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        3,
+        2
+      ],
+      "rank": 8
+    },
+    {
+      "explicit_basis_columns": 0,
+      "fiber_columns": 2,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        3,
+        2
+      ],
+      "rank": 8
+    },
+    {
+      "explicit_basis_columns": 0,
+      "fiber_columns": 3,
+      "literal_forward_and_inverse_circuits_equal": true,
+      "nontrivial_whole_boundaries_unchanged": true,
+      "pieces": [
+        3,
+        3,
+        2
+      ],
+      "rank": 8
+    }
+  ],
+  "scope": "Exact canonical paid endpoint replacement under the retained native whole-job-normalizer contract. This does not replay every original native transport, prove the border precision model, or assert a multiplication bound.",
+  "source_contract": "Retain the original left/right whole-job normalizers around the entire replacement. The inherited lower_child implementation returns compiled=rmon.then(fourier(n,range(r))).then(lmon). Splitting its middle Fourier axes retains exactly those boundary calls.",
+  "split_rules": {
+    "4": [
+      3,
+      1
+    ],
+    "5": [
+      3,
+      2
+    ],
+    "8": [
+      3,
+      3,
+      2
+    ]
+  },
+  "status": "PASS_LITERAL_PHASE_PRESERVING_PAID_SPLIT"
+}

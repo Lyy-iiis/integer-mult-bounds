@@ -1,0 +1,32 @@
+{
+  "files": {
+    "LAURENT-PRECISION.md": "36dfd5f7144d8d25f2b16bb4a5edb9dd78a7af887614e55ff25477100d196f3b",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "PROOF.md": "2f032456afefeaed602214dcff3be1482fc13b5a3e86105ba01633ca5460183f",
+    "README.md": "4f788d7bacd3deda4b6bec18a97dd971bf6323bc16f93ba86e9f8e0d5ebedcaa",
+    "SOURCES.json": "fab50d20b8f7c6d86695765d2a8a8031e63e7b1341664f6de5c92edaa3454f84",
+    "check_actual_matrices.py": "3838cbd91a62a547c3cf4de9d42476fd2f981952cb93543e7eb2502eeaafbdaa",
+    "check_dependency_pins.py": "53ec7e7613efef39a40c8740e5db8724bc82cc70d71fdc30df33117fc0ce1ea5",
+    "check_split_budget.py": "c61cb6d78254380526a9e3fe7d9b9084970c34c87fa1fe4963c9351b0fea856d",
+    "check_split_endpoint.py": "c814bcd22a45c7925eb6237e48fe02e04b621a2a02971825163d6801d954cb0e",
+    "check_two_level.py": "ba3613ff7c7ae1b981d2266da12d506e9ec4f0bf972cd25068e75e554d40335c",
+    "evidence/ACTUAL-MATRICES.json": "1247002448a66dee302166f8cecd5626de21ac7cdf9880dbf5f970d90d5f6711",
+    "evidence/DEPENDENCY-PIN-CONTROLS.json": "cbc619d2124a9765e20059cbe26f0a802979b17f75e680dfcd333b97ac86de77",
+    "evidence/LAURENT-BORDER.json": "0e1b1304fbea6a1cf61d9a3beaf2cdc9a0900abe7fd90a175c837f9836151cda",
+    "evidence/PORTABLE-REPLAY.json": "776e16d67ad3e153e5796b17fb017e9d47393dbc9e5ea0caf845e993d2128394",
+    "evidence/SPLIT-BUDGET.json": "f2e3d9ecaaf6123b2d9a61d4bf26a21d2ed541a1657cde736efcc7128ed9b515",
+    "evidence/SPLIT-ENDPOINT.json": "9877d9a333f0ea9c5723fb54ead5d0300b23ca247d5606a1993c02812759dcd5",
+    "evidence/TWO-LEVEL-LAURENT.json": "a1edbd89a7c7d42edf793f26f006191ba2913e06a527afd0aae53f772ce9be33",
+    "evidence/original/ACTUAL-MATRICES.json": "588bd1975b5118754d38719b102e86f0d2f63bce0372db97fac246b0cdc2c98a",
+    "evidence/original/LAURENT-BORDER.json": "50a2c1b51e153911c642c96387293dcdf3c073b9a6b32cf3a630ad3ca49f93eb",
+    "evidence/original/SPLIT-BUDGET.json": "f2e3d9ecaaf6123b2d9a61d4bf26a21d2ed541a1657cde736efcc7128ed9b515",
+    "evidence/original/SPLIT-ENDPOINT.json": "9877d9a333f0ea9c5723fb54ead5d0300b23ca247d5606a1993c02812759dcd5",
+    "vendor/NOTICE.md": "11d60f523801e91b9b6afa9a2b0260ff148fc7d3c6e9cccba106d00328cc1ecb",
+    "vendor/check_border_native_matrices.py": "119d89830ebc28ba66bdff8a4fbeaa18a3a5d746f9f70d32652cd067e72077ea",
+    "vendor/clifford_exact.py": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+    "verify_laurent_border.py": "6b8b4ddc946b9086fb17970bd31741dc2b0dae67965b38bec2159972b23bf3fc"
+  },
+  "format": 1,
+  "hash": "sha256",
+  "self_excluded": "MANIFEST.json"
+}

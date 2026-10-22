@@ -1,0 +1,83 @@
+{
+  "status": "PASS_NATIVE_PHASE_LAURENT_BORDER_AND_COHERENT_INVERSE_NOT_A_BOUND",
+  "arithmetic_sha256": "119d89830ebc28ba66bdff8a4fbeaa18a3a5d746f9f70d32652cd067e72077ea",
+  "engine_sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+  "rows": [
+    {
+      "fiber_width": 1,
+      "epsilon": "1/2",
+      "physical_pair_dimension": 16,
+      "physical_matrix_sha256": "3e842b0b2f606a99bbfe36a13475cf3db35f1cc6015bb1c89be6574842890ecc",
+      "coherent_inverse_via_actual_transpose": true
+    },
+    {
+      "fiber_width": 1,
+      "epsilon": "1/4",
+      "physical_pair_dimension": 16,
+      "physical_matrix_sha256": "664ca6027942a28be1e1d6a90d08e5a885b89d8964ae0d788a1aaa1c822a7d25",
+      "coherent_inverse_via_actual_transpose": true
+    },
+    {
+      "fiber_width": 2,
+      "epsilon": "1/2",
+      "physical_pair_dimension": 32,
+      "physical_matrix_sha256": "47198386c24f2b3e5f779b06213ac5e8b7bc3e09ea04293f17095ec670e9a863",
+      "coherent_inverse_via_actual_transpose": true
+    },
+    {
+      "fiber_width": 2,
+      "epsilon": "1/4",
+      "physical_pair_dimension": 32,
+      "physical_matrix_sha256": "a78f6d9045413206995fcb5fdfd6478a0904295670a51c965cd50714bc470b3f",
+      "coherent_inverse_via_actual_transpose": true
+    },
+    {
+      "fiber_width": 3,
+      "epsilon": "1/2",
+      "physical_pair_dimension": 64,
+      "physical_matrix_sha256": "72d3ad92019c336bb413d4872868ee7773bb0e3d162d0be91d1aa5e3b0be7afc",
+      "coherent_inverse_via_actual_transpose": true
+    },
+    {
+      "fiber_width": 3,
+      "epsilon": "1/4",
+      "physical_pair_dimension": 64,
+      "physical_matrix_sha256": "953b762bc88e57458706979f793134a7212d74682feb8a48d05e5fb46ab72b3c",
+      "coherent_inverse_via_actual_transpose": true
+    }
+  ],
+  "controls": [
+    {
+      "fiber_width": 1,
+      "epsilon": "1/2",
+      "false_exact_endpoint_rejected": true
+    },
+    {
+      "fiber_width": 1,
+      "epsilon": "1/4",
+      "false_exact_endpoint_rejected": true
+    },
+    {
+      "fiber_width": 2,
+      "epsilon": "1/2",
+      "false_exact_endpoint_rejected": true
+    },
+    {
+      "fiber_width": 2,
+      "epsilon": "1/4",
+      "false_exact_endpoint_rejected": true
+    },
+    {
+      "fiber_width": 3,
+      "epsilon": "1/2",
+      "false_exact_endpoint_rejected": true
+    },
+    {
+      "fiber_width": 3,
+      "epsilon": "1/4",
+      "false_exact_endpoint_rejected": true
+    }
+  ],
+  "scope": "Actual canonical source Fourier matrices and opposite Q directions, two distinct fresh D model factors. The transpose/adjugate is a matrix identity, not yet a source-bound whole-native transpose implementation or recursive closure theorem. Helpers, error and precision obligations are not waived.",
+  "checker_sha256": "3838cbd91a62a547c3cf4de9d42476fd2f981952cb93543e7eb2502eeaafbdaa"
+}

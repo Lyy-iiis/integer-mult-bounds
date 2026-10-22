@@ -1,0 +1,105 @@
+{
+  "checker_sha256": "c61cb6d78254380526a9e3fe7d9b9084970c34c87fa1fe4963c9351b0fea856d",
+  "controls": {
+    "drop_last_rank2_split_piece_detected": true,
+    "suppress_all_split_penalty_detected": true,
+    "unsplit_rank4_breaks_separation": true
+  },
+  "method": "48-term positive atanh logarithm with geometric remainder, alternating exp(-x) bounds at degrees17/16, exact Fraction arithmetic.",
+  "paid_after_split": {
+    "1": 4656,
+    "2": 920,
+    "3": 1386
+  },
+  "paid_before_split": {
+    "1": 4402,
+    "2": 824,
+    "3": 1020,
+    "4": 254,
+    "5": 80,
+    "8": 16
+  },
+  "paid_rank_mass": 10654,
+  "profile_source": {
+    "authentication_scope": "Profile supplied by independently authenticated parent source audit; this arithmetic checker does not rerun the native source.",
+    "head": "0ce1b5c9fb7163d0b2f0ac3db95fc418dbbcec62",
+    "pr": 4610
+  },
+  "root_at_lower_interval": [
+    "14702057749/125000000000000000000000000000",
+    "117616461993/1000000000000000000000000000000"
+  ],
+  "root_at_upper_interval": [
+    "-39333956913/500000000000000000000000000000",
+    "-3146716553/40000000000000000000000000000"
+  ],
+  "root_decimal_lower": "0.0048568755777092121",
+  "root_lower": "242843778885460597663/50000000000000000000000",
+  "root_upper": "485687557770921195327/100000000000000000000000",
+  "scope": "This removes the raw invoice need for tensor powering/completion. A paid Gaussian split is an exact composition on disjoint axes under retained whole-job normalizers. The border residual is nonzero. Size-dependent coefficients, recursive numerical precision, uniform compiler and BIT admission remain unproved. No new kappa is asserted.",
+  "single_call_helpers": {
+    "4": 28,
+    "7": 7,
+    "8": 47,
+    "9": 326
+  },
+  "single_call_paid": {
+    "1": 2201,
+    "2": 412,
+    "3": 510,
+    "4": 127,
+    "5": 40,
+    "8": 8
+  },
+  "split_moment_interval": [
+    "89550115507540027412848501761/3125000000000000000000000000",
+    "28656036962412808772111520563521/1000000000000000000000000000000"
+  ],
+  "split_penalty_interval": [
+    "663308684224831592618410035113/200000000000000000000000000000",
+    "1658271710562078981546025087783/500000000000000000000000000000"
+  ],
+  "split_rules": {
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      3,
+      1
+    ],
+    "5": [
+      3,
+      2
+    ],
+    "8": [
+      3,
+      3,
+      2
+    ]
+  },
+  "status": "PASS_EXACT_SPLIT_INVOICE_ONLY_NOT_A_BOUND",
+  "strict_rank_separation": {
+    "max_paid": 3,
+    "min_target": 4
+  },
+  "target": {
+    "4": 56,
+    "7": 14,
+    "8": 94,
+    "9": 652,
+    "17": 224
+  },
+  "target_rank_mass": 10750,
+  "test_C": "17/5000",
+  "unique_root_separator": "7/2",
+  "unsplit_moment_interval": [
+    "6394516076707393347040714147817/200000000000000000000000000000",
+    "15986290191768483367601785369543/500000000000000000000000000000"
+  ]
+}
