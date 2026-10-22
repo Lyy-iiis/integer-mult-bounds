@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "control": "changed immutable engine bytes",
+      "result": "REJECTED",
+      "reason": "SHA256 authentication"
+    },
+    {
+      "control": "one wrong MA residual phase",
+      "result": "REJECTED",
+      "reason": "individual exact base-word identity"
+    }
+  ]
+}

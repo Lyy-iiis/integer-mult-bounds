@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "source_pr4688": "264c4b3cb13c82d171de352ecf60486dfb8d2bd4",
+  "arithmetic": "exact Gaussian integer elimination over Q(i)",
+  "scope": "literal five-call two-input prefix, width5 eight hook cuts only; no completed unit",
+  "normalization": "physical C_j=((1+i)/2)I+((1-i)/2)X_j; each whole register scaled by a nonzero common scalar only",
+  "word": [
+    "u=C0 x",
+    "v=C0(P+2Q)u",
+    "r=(NT)^-1 J(Wv+Ty)",
+    "t=C0(P+2Q)r",
+    "z=J(Wt+Q2r+Pv)"
+  ],
+  "records": [
+    {
+      "mask": 2,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 3,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 6,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 7,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 8,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 9,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 12,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    },
+    {
+      "mask": 13,
+      "stages": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint": 448
+    }
+  ]
+}

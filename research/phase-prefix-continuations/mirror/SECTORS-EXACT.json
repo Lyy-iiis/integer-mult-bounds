@@ -1,0 +1,311 @@
+{
+  "status": "PASS",
+  "width": 5,
+  "field": "Q(i)",
+  "records": [
+    {
+      "mask": 2,
+      "input_cut_dimension": 224,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 3,
+      "input_cut_dimension": 280,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 6,
+      "input_cut_dimension": 280,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 7,
+      "input_cut_dimension": 336,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 8,
+      "input_cut_dimension": 224,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 9,
+      "input_cut_dimension": 280,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 12,
+      "input_cut_dimension": 280,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    },
+    {
+      "mask": 13,
+      "input_cut_dimension": 336,
+      "sectors": [
+        {
+          "G_sign": -1,
+          "Pi_sign": -1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": -1,
+          "Pi_sign": 1,
+          "state": 100,
+          "target": 112,
+          "joint": 112,
+          "deficit": 12
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": -1,
+          "state": 104,
+          "target": 112,
+          "joint": 112,
+          "deficit": 8
+        },
+        {
+          "G_sign": 1,
+          "Pi_sign": 1,
+          "state": 96,
+          "target": 112,
+          "joint": 112,
+          "deficit": 16
+        }
+      ]
+    }
+  ]
+}

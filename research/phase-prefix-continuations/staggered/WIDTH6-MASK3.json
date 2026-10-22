@@ -1,0 +1,17 @@
+{
+  "prime": 65537,
+  "scope": "modular screen on natural H tensor V lifted cut",
+  "records": [
+    {
+      "mask": 3,
+      "stages": [
+        640,
+        1280,
+        1920,
+        2560,
+        3200
+      ],
+      "target_joint": 3584
+    }
+  ]
+}

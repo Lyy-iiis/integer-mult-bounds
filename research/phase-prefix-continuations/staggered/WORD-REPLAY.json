@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "arithmetic": "Gaussian rational Fraction pairs",
+  "arithmetic_sha256": "0d277854396e4ceda1e0f26916bd576b6decb474c0692b6671ebf2595283ddb9",
+  "records": [
+    {
+      "width": 1,
+      "dimension": 8,
+      "paid_calls": 5,
+      "r_x_target_coefficient": "2 L_f^-1 K_f a_f",
+      "z_y_target_coefficient": "2 K_f a_f",
+      "status": "PASS"
+    },
+    {
+      "width": 2,
+      "dimension": 64,
+      "paid_calls": 5,
+      "r_x_target_coefficient": "2 L_f^-1 K_f a_f",
+      "z_y_target_coefficient": "2 K_f a_f",
+      "status": "PASS"
+    }
+  ],
+  "all_width_justification": "The three base identities are single-word equalities; tensor them separately and keep mixing coefficients2 fixed. Width1/2 controls do not alone prove all-width ranks.",
+  "scope": "literal five-call prefix and target-coset entrances; no completed unit"
+}

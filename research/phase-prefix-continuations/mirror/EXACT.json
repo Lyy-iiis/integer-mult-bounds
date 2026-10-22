@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "field": "Q(i)",
+  "width": 5,
+  "full_eight_cut_replay": true,
+  "source_engine_sha256": "99ff0beccd9a4e94cc607e02114d62b8ce0ea57ee00748b07ce0a0af91aec85e",
+  "words_sha256": "7a09e37a57c0ebf1f5d24e311f08ce2828617fc8f92f18d12cbbaa2c788af7c3",
+  "records": [
+    {
+      "mask": 2,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 3,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 6,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 7,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 8,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 9,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 12,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    },
+    {
+      "mask": 13,
+      "stage_potentials_exact": [
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "target_joint_exact": 448
+    }
+  ],
+  "scope": "Literal normalized word hook ranks only; no uniform endpoint completion or improved exponent is claimed."
+}

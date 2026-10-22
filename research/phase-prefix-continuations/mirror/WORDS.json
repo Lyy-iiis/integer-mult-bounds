@@ -1,0 +1,794 @@
+{
+  "schema": "literal_tensor_word_state_v1",
+  "word_order": "left-to-right matrix product; rightmost letter acts first",
+  "width_rule": "each base letter is tensorized f times; rational coefficients remain unchanged; never tensorize a sum",
+  "free_base_letters": {
+    "S": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    "S_inv": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        1
+      ]
+    },
+    "U02": {
+      "permutation": [
+        0,
+        5,
+        2,
+        7,
+        4,
+        1,
+        6,
+        3
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V01": {
+      "permutation": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V21": {
+      "permutation": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "a": {
+      "permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6
+      ],
+      "phase_i": [
+        1,
+        3,
+        3,
+        1,
+        1,
+        3,
+        3,
+        1
+      ]
+    },
+    "W": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    "Z1": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    "M": {
+      "permutation": [
+        2,
+        0,
+        3,
+        1,
+        4,
+        6,
+        5,
+        7
+      ],
+      "phase_i": [
+        0,
+        0,
+        2,
+        2,
+        1,
+        3,
+        3,
+        1
+      ]
+    },
+    "V02": {
+      "permutation": [
+        0,
+        4,
+        2,
+        6,
+        1,
+        5,
+        3,
+        7
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "U20": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "U12": {
+      "permutation": [
+        0,
+        1,
+        6,
+        7,
+        4,
+        5,
+        2,
+        3
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "Z2": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "WA": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    "WB": {
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "phase_i": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        2,
+        2,
+        0
+      ]
+    },
+    "b": {
+      "permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6
+      ],
+      "phase_i": [
+        1,
+        3,
+        1,
+        3,
+        3,
+        1,
+        3,
+        1
+      ]
+    },
+    "MA": {
+      "permutation": [
+        6,
+        2,
+        7,
+        3,
+        4,
+        0,
+        5,
+        1
+      ],
+      "phase_i": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    "MB": {
+      "permutation": [
+        6,
+        4,
+        2,
+        0,
+        7,
+        5,
+        3,
+        1
+      ],
+      "phase_i": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    "U10": {
+      "permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        7,
+        6
+      ],
+      "phase_i": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "paid_base_letters": {
+    "C0": {
+      "direction": 1,
+      "formula": "((1+i)I+(1-i)X_direction)/2"
+    },
+    "C1": {
+      "direction": 2,
+      "formula": "((1+i)I+(1-i)X_direction)/2"
+    },
+    "C2": {
+      "direction": 4,
+      "formula": "((1+i)I+(1-i)X_direction)/2"
+    }
+  },
+  "derived_words": {
+    "P01": [
+      "S",
+      "V01",
+      "S"
+    ],
+    "P02": [
+      "S",
+      "V02",
+      "S"
+    ],
+    "P2": [
+      "S",
+      "U20",
+      "S"
+    ],
+    "Q2": [
+      "S",
+      "V21",
+      "S"
+    ],
+    "P1": [
+      "S",
+      "U10",
+      "S"
+    ],
+    "Q1": [
+      "S",
+      "V21",
+      "S"
+    ],
+    "JA": [
+      "Z1",
+      "V01",
+      "C2"
+    ],
+    "JB": [
+      "Z2",
+      "V02",
+      "C1"
+    ],
+    "K": [
+      "C0",
+      "C1",
+      "C2"
+    ]
+  },
+  "independent_inputs": 2,
+  "preserved_original_inputs": [
+    0,
+    1
+  ],
+  "paid_call_count": 5,
+  "chronology": [
+    "u=C0 x",
+    "v=C0 y",
+    "r=C0(P01 u+P02 v)",
+    "qA=C2[WA r+(P2 V02+2Q2 V02)v/4]; s=Z1 V01 qA (free)",
+    "qB=C1[WB r+(P1 V01+2Q1 V01)u/4]; t=Z2 V02 qB (free)"
+  ],
+  "retained_states": {
+    "u": [
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 1
+      }
+    ],
+    "v": [
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 1
+      }
+    ],
+    "r": [
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "C0",
+          "S",
+          "V01",
+          "S",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "C0",
+          "S",
+          "V02",
+          "S",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      }
+    ],
+    "s": [
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "C0",
+          "C1",
+          "C2",
+          "a"
+        ],
+        "paid_letters_in_expanded_term": 3
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "MA",
+          "C2"
+        ],
+        "paid_letters_in_expanded_term": 1
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          4
+        ],
+        "word": [
+          "Z1",
+          "V01",
+          "C2",
+          "S",
+          "U20",
+          "S",
+          "V02",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          2
+        ],
+        "word": [
+          "Z1",
+          "V01",
+          "C2",
+          "S",
+          "V21",
+          "S",
+          "V02",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      }
+    ],
+    "t": [
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "MB",
+          "C1"
+        ],
+        "paid_letters_in_expanded_term": 1
+      },
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          4
+        ],
+        "word": [
+          "Z2",
+          "V02",
+          "C1",
+          "S",
+          "U10",
+          "S",
+          "V01",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      },
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          2
+        ],
+        "word": [
+          "Z2",
+          "V02",
+          "C1",
+          "S",
+          "V21",
+          "S",
+          "V01",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "C0",
+          "C1",
+          "C2",
+          "b"
+        ],
+        "paid_letters_in_expanded_term": 3
+      }
+    ]
+  },
+  "residual_words": {
+    "D_A_on_y": [
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "MA",
+          "C2"
+        ],
+        "paid_letters_in_expanded_term": 1
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          4
+        ],
+        "word": [
+          "Z1",
+          "V01",
+          "C2",
+          "S",
+          "U20",
+          "S",
+          "V02",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      },
+      {
+        "input": 1,
+        "coefficient": [
+          1,
+          2
+        ],
+        "word": [
+          "Z1",
+          "V01",
+          "C2",
+          "S",
+          "V21",
+          "S",
+          "V02",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      }
+    ],
+    "D_B_on_x": [
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          1
+        ],
+        "word": [
+          "MB",
+          "C1"
+        ],
+        "paid_letters_in_expanded_term": 1
+      },
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          4
+        ],
+        "word": [
+          "Z2",
+          "V02",
+          "C1",
+          "S",
+          "U10",
+          "S",
+          "V01",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      },
+      {
+        "input": 0,
+        "coefficient": [
+          1,
+          2
+        ],
+        "word": [
+          "Z2",
+          "V02",
+          "C1",
+          "S",
+          "V21",
+          "S",
+          "V01",
+          "C0"
+        ],
+        "paid_letters_in_expanded_term": 2
+      }
+    ]
+  },
+  "target_coset_matrix": "diagonal(K a,K b), both independent input coordinates seeded; every residual term has at most2 paid letters",
+  "width5_modular_potential": 400,
+  "width5_modular_target_joint": 448,
+  "status": "Exact Q(i) width5 all8 and normalized literal width1/2 pass; width6 mask2 modular screen passes; uniform endpoint graph obstruction prevents completion with fewer than two additional queries per independent pair.",
+  "variant": "true mirror under bit1<->bit2 and inputx<->y"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "prime": 65537,
+  "scope": "Only mask2, natural H5 tensor V8 lifted hook, modular lower-bound screen; no uniform endpoint claim.",
+  "words_sha256": "7a09e37a57c0ebf1f5d24e311f08ce2828617fc8f92f18d12cbbaa2c788af7c3",
+  "source_engine_sha256": "99ff0beccd9a4e94cc607e02114d62b8ce0ea57ee00748b07ce0a0af91aec85e",
+  "rank_engine_sha256": "f2b2e4c2ce5780d8c7cb0ae20ea0c8dd5f4587611cc6dc6f17b58d7cdb1bb4de",
+  "runtime": {
+    "python": "3.13.7",
+    "numpy": "2.4.5",
+    "scipy": "1.16.1"
+  },
+  "records": [
+    {
+      "mask": 2,
+      "stages": [
+        640,
+        1280,
+        1920,
+        2560,
+        3200
+      ],
+      "target_joint": 3584,
+      "call_cap": 640
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact Gaussian Fraction pairs",
+  "word_file_sha256": "7a09e37a57c0ebf1f5d24e311f08ce2828617fc8f92f18d12cbbaa2c788af7c3",
+  "arithmetic_file_sha256": "0d277854396e4ceda1e0f26916bd576b6decb474c0692b6671ebf2595283ddb9",
+  "individual_base_word_identities_verified": [
+    [
+      [
+        "JA",
+        "WA",
+        "C0",
+        "P01",
+        "C0"
+      ],
+      [
+        "K",
+        "a"
+      ]
+    ],
+    [
+      [
+        "JB",
+        "WB",
+        "C0",
+        "P02",
+        "C0"
+      ],
+      [
+        "K",
+        "b"
+      ]
+    ],
+    [
+      [
+        "JA",
+        "WA",
+        "C0",
+        "P02",
+        "C0"
+      ],
+      [
+        "MA",
+        "C2"
+      ]
+    ],
+    [
+      [
+        "JB",
+        "WB",
+        "C0",
+        "P01",
+        "C0"
+      ],
+      [
+        "MB",
+        "C1"
+      ]
+    ]
+  ],
+  "records": [
+    {
+      "width": 1,
+      "dimension": 8,
+      "status": "PASS",
+      "five_paid_queries": true,
+      "two_independent_input_blocks": true,
+      "five_retained_states_match_reduced_words": true
+    },
+    {
+      "width": 2,
+      "dimension": 64,
+      "status": "PASS",
+      "five_paid_queries": true,
+      "two_independent_input_blocks": true,
+      "five_retained_states_match_reduced_words": true
+    }
+  ],
+  "all_width_proof": "All reduced identities are sums of separately verified base-letter word equalities; tensor each word before adding fixed rational coefficients. Width1/2 replays are controls, not the all-width proof by themselves."
+}

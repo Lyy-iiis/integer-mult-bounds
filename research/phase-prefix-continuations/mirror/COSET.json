@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact Gaussian Fraction pairs",
+  "words_sha256": "7a09e37a57c0ebf1f5d24e311f08ce2828617fc8f92f18d12cbbaa2c788af7c3",
+  "arithmetic_sha256": "0d277854396e4ceda1e0f26916bd576b6decb474c0692b6671ebf2595283ddb9",
+  "records": [
+    {
+      "name": "u",
+      "row_support": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "A01",
+      "row_support": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "A02",
+      "row_support": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "K",
+      "row_support": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": true
+    },
+    {
+      "name": "Ka",
+      "row_support": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": true
+    },
+    {
+      "name": "Kb",
+      "row_support": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": true
+    },
+    {
+      "name": "DA0",
+      "row_support": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": true,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "DA1",
+      "row_support": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "DA2",
+      "row_support": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "DB0",
+      "row_support": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": true,
+      "left_coset_K": false
+    },
+    {
+      "name": "DB1",
+      "row_support": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    },
+    {
+      "name": "DB2",
+      "row_support": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "fourth_root_monomial": false,
+      "left_coset_C2": false,
+      "left_coset_C1": false,
+      "left_coset_K": false
+    }
+  ],
+  "scope": "Coset memberships for the four-coordinate proof in ENDPOINT-OBSTRUCTION.md, with the full finite fourth-root monomial group as an allowed enlargement of the actual free group."
+}
