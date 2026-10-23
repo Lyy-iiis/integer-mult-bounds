@@ -1,0 +1,12 @@
+{
+  "context_sources": {
+    "PROOF.md": "2f032456afefeaed602214dcff3be1482fc13b5a3e86105ba01633ca5460183f",
+    "WEIGHTED-COMPILER-GATE.md": "115fb381a2c06e601b54d592169c26d3b6f587b040fe3ef129cc98b4fbbc48c7"
+  },
+  "files": {
+    "DEGREE-RECEIPT.json": "a70ce17bb7936e09ea8da618e6a5271818332769a0f3d0680c78724647734dc2",
+    "FORMAL-DEGREE.md": "f5a330befb5033ee7b57f21fa4d4026886437b31f34f80d43a0b20dd9dec4f4e",
+    "README.md": "ae1bc77c30ef1a240f76af6cb20068e05612d48d8edf0bfd04fc857ea6dd5472",
+    "check_degree.py": "ae61cfc6ba3750fb0f4eb75f63e776a6fd7d4b70541f5bf0efdba8033c6644f5"
+  }
+}

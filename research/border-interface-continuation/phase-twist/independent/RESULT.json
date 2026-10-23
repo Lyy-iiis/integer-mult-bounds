@@ -1,0 +1,72 @@
+{
+  "status": "PASS_LOCAL_PHASE_TWIST_NOT_RECURSIVE_SUPPLIER",
+  "formal_ring": "Z[i][d,q,e]/(d^4-1,q^4-1), commuting d,q,e",
+  "formal_identities": [
+    "Psi^4=I",
+    "det_role(Psi)=i",
+    "A^-1=-i*d^2*J*A^(Trole)*J^-1",
+    "A^4=I",
+    "Psi=L(r)*diag(q,i*q^-1)*L(-r), r=(e/2)*(1-q)*(1-i*q^2)"
+  ],
+  "Psi_squared_lower_left": [
+    {
+      "exponents_d_q_e": [
+        0,
+        0,
+        1
+      ],
+      "coefficient_re_im": [
+        0,
+        -1
+      ]
+    },
+    {
+      "exponents_d_q_e": [
+        0,
+        1,
+        1
+      ],
+      "coefficient_re_im": [
+        0,
+        1
+      ]
+    },
+    {
+      "exponents_d_q_e": [
+        0,
+        2,
+        1
+      ],
+      "coefficient_re_im": [
+        1,
+        0
+      ]
+    },
+    {
+      "exponents_d_q_e": [
+        0,
+        3,
+        1
+      ],
+      "coefficient_re_im": [
+        -1,
+        0
+      ]
+    }
+  ],
+  "physical_symmetric_commuting_case": "PASS",
+  "physical_symmetric_noncommuting_right_correction": "PASS",
+  "rejection_controls": {
+    "symmetric_order_four_but_noncommuting_d_q": "REJECTED",
+    "same_noncommuting_pair_A_fourth_power": "REJECTED",
+    "moving_q_squared_parity_across_arbitrary_chart": "REJECTED",
+    "physical_transpose_for_nonsymmetric_q": "REJECTED",
+    "treating_Psi_squared_as_diagonal_parity": "REJECTED"
+  },
+  "unproved": [
+    "actual physical transposed supplier",
+    "matched paid/target interfaces",
+    "recursive closure",
+    "finite precision exact inverse"
+  ]
+}

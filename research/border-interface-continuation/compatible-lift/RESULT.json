@@ -1,0 +1,90 @@
+{
+  "all_concave_moment_ratio_bound": "(4/3)^(t-1)*5375/5383 <= 5375/5383 < 1, 0<=t<=1",
+  "checker_sha256": "aba76d5f57a1a0ba0199f11d583fa8e063b23631f7853f87a73acea012e85163",
+  "controls": {
+    "different_generators_do_not_commute_under_uncorrected_twist": true,
+    "omit_extra_query_charge_changes_surplus": true,
+    "omit_repair_odd_part_leaves_residual": true,
+    "omit_third_query_cannot_diagonalize": true
+  },
+  "cyclic_representation_powers_checked": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "direct_repair_parity_sectors": [
+    {
+      "diagonalizer_odd_coefficient_over_half_epsilon": [
+        -1,
+        -1
+      ],
+      "direct_repair_odd_coefficient_over_epsilon": [
+        1,
+        0
+      ],
+      "q_squared": -1
+    },
+    {
+      "diagonalizer_odd_coefficient_over_half_epsilon": [
+        -1,
+        1
+      ],
+      "direct_repair_odd_coefficient_over_epsilon": [
+        -1,
+        0
+      ],
+      "q_squared": 1
+    }
+  ],
+  "fixed_scalar_conjugation_distinct_generators_commute": true,
+  "limits": [
+    "The single-anchor common conjugator depends on the odd query; it is not declared free.",
+    "A commuting-family character must respect every relation; assigning i independently without checking relations is insufficient.",
+    "The112-extra-query bound is for exact correction by single-role q or q^-1 queries and even free role maps; it excludes reuse of hidden intermediate states and changed query alphabets.",
+    "Covariance under simultaneous free conjugation is automatic and is not identified as a failure.",
+    "No all-compiler impossibility, recursive precision admission, or improved multiplication exponent is claimed."
+  ],
+  "paid_mass": 10766,
+  "same_anchor_fresh_D_commutes": true,
+  "same_input_serial_inventory": [
+    {
+      "main_rank_each": 17,
+      "rank_surplus_before_repair": 96,
+      "two_full_blocks": 1
+    },
+    {
+      "main_rank_each": 32,
+      "rank_surplus_before_repair": -256,
+      "two_full_blocks": 2
+    },
+    {
+      "main_rank_each": 49,
+      "rank_surplus_before_repair": -160,
+      "two_full_blocks": 3
+    },
+    {
+      "main_rank_each": 64,
+      "rank_surplus_before_repair": -512,
+      "two_full_blocks": 4
+    }
+  ],
+  "source_sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+  "status": "PASS_COMPATIBLE_LIFT_IDENTITIES_AND_SCOPED_COST_OBSTRUCTION",
+  "target_mass": 10750,
+  "target_profile": {
+    "4": 56,
+    "7": 14,
+    "8": 94,
+    "9": 652,
+    "17": 224
+  },
+  "third_query_paid_split_profile": {
+    "1": 4768,
+    "2": 920,
+    "3": 1386
+  },
+  "three_query_exact_lift": true,
+  "vendor_sha256": "43c5535db451b1b846018668cb9f79fa4ae0a39ed5240dbbdef0d2cb1173d242"
+}

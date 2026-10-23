@@ -1,0 +1,29 @@
+{
+  "live_input": {
+    "repository": "CrocSwap/integer-mult-bounds",
+    "commit": "1eb8da6cfb35512c0cc2533413e5ca42f48e13c6",
+    "path": "research/kappa-round3-warp-20261022/ACTUAL-WORD.json.gz",
+    "sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05"
+  },
+  "read_provenance_only": [
+    {
+      "name": "PROOF.md",
+      "sha256": "2f032456afefeaed602214dcff3be1482fc13b5a3e86105ba01633ca5460183f"
+    },
+    {
+      "name": "LAURENT-PRECISION.md",
+      "sha256": "36dfd5f7144d8d25f2b16bb4a5edb9dd78a7af887614e55ff25477100d196f3b"
+    },
+    {
+      "name": "WEIGHTED-COMPILER-GATE.md",
+      "sha256": "115fb381a2c06e601b54d592169c26d3b6f587b040fe3ef129cc98b4fbbc48c7"
+    }
+  ],
+  "compiler_provenance": {
+    "repository": "CrocSwap/integer-mult-bounds",
+    "commit": "b58ad9ef4d4e861b0eaa5dba41742bdc072dca51",
+    "path": "research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+    "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8",
+    "attribution": "Jacob Alan Sussman Theorem1G and repository finite-precompiler contributors; inherited result, not claimed here."
+  }
+}

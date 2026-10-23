@@ -1,0 +1,20 @@
+{
+  "source_head": "0130b196145a43a7d305de41f49e56e8e8556378",
+  "source_pr": "https://github.com/CrocSwap/integer-mult-bounds/pull/4971",
+  "source_author": "Dugongue, with OpenAI Codex assistance",
+  "read_only_predecessor_files": {
+    "RETAINED-SOURCE.md": "14a34b4fb1f26d7493bb28775ebe49eff1512ba5e28b22ed1dd4f4c4b365d802",
+    "RESULT.json": "36dda716de598a09723c8a4d5e20ea2ad4c5b092f4f8bfd0946dcb19c7a76d9b",
+    "native_core.py": "c510b8c171a57a92b2cfe2ad516cde00fa8a1148b457bb8de2197635e37f3296",
+    "TASK.json": "58308e0102ec6ce0a92bea7d230ff5bc4c966b4476a906ef145f5d4b6c022d38",
+    "README.md": "1a308ae41421efb10e67bd6f53768999a8ab3a5d03ec2231385b6fb09e981814",
+    "verify.py": "9e536497b6bf5a1162a933c1aef0ff079f1ec21996095ccfeda40252e0b7b3dd"
+  },
+  "live_input": {
+    "path": "research/kappa-round3-warp-20261022/ACTUAL-WORD.json.gz",
+    "base": "b91956876e5b4122fd89179f1b57557ff8378f15",
+    "compressed_sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+    "payload_sha256": "cfcd36b40326d7a5815e1db5313444379b3fb756b27d5201c561574c085cc0dd"
+  },
+  "scope": "Predecessor code was read but is not imported or required at runtime. Our frame/cost census independently reconstructs its declared greedy swap rule. Native physical endpoint correctness remains inherited."
+}

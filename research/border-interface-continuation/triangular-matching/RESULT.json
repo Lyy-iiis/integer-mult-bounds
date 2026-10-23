@@ -1,0 +1,131 @@
+{
+  "compiler_sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8",
+  "conditional_graph_heights": [
+    {
+      "carry_path_edges": 1,
+      "closure_edges": 1,
+      "depth": 1,
+      "minimum_integer_grade_span": 1,
+      "vertices": 2
+    },
+    {
+      "carry_path_edges": 3,
+      "closure_edges": 6,
+      "depth": 2,
+      "minimum_integer_grade_span": 3,
+      "vertices": 4
+    },
+    {
+      "carry_path_edges": 7,
+      "closure_edges": 28,
+      "depth": 3,
+      "minimum_integer_grade_span": 7,
+      "vertices": 8
+    },
+    {
+      "carry_path_edges": 15,
+      "closure_edges": 120,
+      "depth": 4,
+      "minimum_integer_grade_span": 15,
+      "vertices": 16
+    },
+    {
+      "carry_path_edges": 31,
+      "closure_edges": 496,
+      "depth": 5,
+      "minimum_integer_grade_span": 31,
+      "vertices": 32
+    },
+    {
+      "carry_path_edges": 63,
+      "closure_edges": 2016,
+      "depth": 6,
+      "minimum_integer_grade_span": 63,
+      "vertices": 64
+    },
+    {
+      "carry_path_edges": 127,
+      "closure_edges": 8128,
+      "depth": 7,
+      "minimum_integer_grade_span": 127,
+      "vertices": 128
+    },
+    {
+      "carry_path_edges": 255,
+      "closure_edges": 32640,
+      "depth": 8,
+      "minimum_integer_grade_span": 255,
+      "vertices": 256
+    }
+  ],
+  "controls": [
+    {
+      "name": "changed decoded source",
+      "rejected": true
+    },
+    {
+      "name": "wrong zero-reset coefficient",
+      "rejected": true
+    }
+  ],
+  "integer_flow_slice": {
+    "G": 2,
+    "N": 289,
+    "first_child_units": 1040,
+    "four_main_source_ranks": [
+      289,
+      289,
+      289,
+      289
+    ],
+    "meaning": "A slice of the exact integer flow, not a complete winning uniform supplier.",
+    "root_units": 3136,
+    "second_child_units": 1,
+    "selected_round_ranks": [
+      1,
+      1
+    ],
+    "two_selected_parent_unit_columns": [
+      17,
+      17
+    ]
+  },
+  "invoice_targets": {
+    "4": 56,
+    "7": 14,
+    "8": 94,
+    "9": 652,
+    "17": 224
+  },
+  "open_gates": [
+    "simultaneous ordering of complements, exits, fresh sources and owned fields",
+    "actual noncancelling endpoint support after setting all local epsilon to one",
+    "complete precision and boundary-loss invoice"
+  ],
+  "source_decoded_sha256": "cfcd36b40326d7a5815e1db5313444379b3fb756b27d5201c561574c085cc0dd",
+  "source_reset": {
+    "event": 6276,
+    "input_original_Y_port": 14,
+    "labelled_cross_copy_coefficient_up_to_common_sign": [
+      "1/4",
+      "-1/4"
+    ],
+    "matched_q_minus_I_delta_zero_moment": [
+      "-1/2",
+      "1/2"
+    ],
+    "new_frame": [
+      45
+    ],
+    "old_frame": [],
+    "orientation": "backward / upper call",
+    "output_main_X_port": 14,
+    "owner": 126,
+    "paid_rank": 1,
+    "scalar_prefix": "1",
+    "scalar_suffix": "-1/2",
+    "scope": "One independently labelled matched-child first variation; no claim that the all-local-epsilon-one completed endpoint retains this coefficient."
+  },
+  "status": "PASS: bounded graph, integer slice, and labelled source-response checks",
+  "without_suffix_reset_depth8_grade_span": 8
+}

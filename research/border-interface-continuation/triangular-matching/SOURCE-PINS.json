@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/CrocSwap/integer-mult-bounds",
+  "native_word": {
+    "commit": "cef4b52f2a59009865bf8eabde1be3f159063703",
+    "path": "research/kappa-round3-warp-20261022/ACTUAL-WORD.json.gz",
+    "git_blob": "46d929df83817b85a5387bcdb9745e0627d6366e",
+    "decoded_sha256": "cfcd36b40326d7a5815e1db5313444379b3fb756b27d5201c561574c085cc0dd"
+  },
+  "finite_compiler": {
+    "commit": "b58ad9ef4d4e861b0eaa5dba41742bdc072dca51",
+    "path": "research/higher-moment-strictification/vendor/FINITE-PRECOMPILATION.md",
+    "sha256": "4cb32f6b8e388ecf6ed41b5bbdeeb4539cb40c8424f194974afea58f7e0921e8",
+    "upstream_author": "Jacob Alan Sussman",
+    "upstream_commit": "563b4e6e913625637f36ba7869bf5fcd0dd4975a"
+  }
+}

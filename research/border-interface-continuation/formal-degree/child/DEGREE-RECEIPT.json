@@ -1,0 +1,276 @@
+{
+  "checker_sha256": "ae61cfc6ba3750fb0f4eb75f63e776a6fd7d4b70541f5bf0efdba8033c6644f5",
+  "coherent_actual_inverse_q_minus_one": [
+    {
+      "A": {
+        "highest_degree": 1,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "actual_inverse_B": {
+        "highest_degree": 1,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "both_inverse_products_exact_at_half": true,
+      "depth": 1,
+      "dimension": 2
+    },
+    {
+      "A": {
+        "highest_degree": 2,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "actual_inverse_B": {
+        "highest_degree": 2,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "both_inverse_products_exact_at_half": true,
+      "depth": 2,
+      "dimension": 4
+    },
+    {
+      "A": {
+        "highest_degree": 3,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "actual_inverse_B": {
+        "highest_degree": 3,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "both_inverse_products_exact_at_half": true,
+      "depth": 3,
+      "dimension": 8
+    },
+    {
+      "A": {
+        "highest_degree": 4,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "actual_inverse_B": {
+        "highest_degree": 4,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "both_inverse_products_exact_at_half": true,
+      "depth": 4,
+      "dimension": 16
+    },
+    {
+      "A": {
+        "highest_degree": 5,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "actual_inverse_B": {
+        "highest_degree": 5,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "both_inverse_products_exact_at_half": true,
+      "depth": 5,
+      "dimension": 32
+    }
+  ],
+  "coordinate_recycling_counterexample": [
+    {
+      "depth": 1,
+      "extreme_coefficient": "3",
+      "highest_degree": -1,
+      "lowest_degree": -1
+    },
+    {
+      "depth": 2,
+      "extreme_coefficient": "9",
+      "highest_degree": -1,
+      "lowest_degree": -3
+    },
+    {
+      "depth": 3,
+      "extreme_coefficient": "81",
+      "highest_degree": -1,
+      "lowest_degree": -7
+    },
+    {
+      "depth": 4,
+      "extreme_coefficient": "6561",
+      "highest_degree": -1,
+      "lowest_degree": -15
+    },
+    {
+      "depth": 5,
+      "extreme_coefficient": "43046721",
+      "highest_degree": -1,
+      "lowest_degree": -31
+    },
+    {
+      "depth": 6,
+      "extreme_coefficient": "1853020188851841",
+      "highest_degree": -1,
+      "lowest_degree": -63
+    }
+  ],
+  "independent_substitution_q_minus_one": [
+    {
+      "depth": 1,
+      "dimension": 2,
+      "proper_border": {
+        "highest_degree": 1,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "proper_depth_weights_inner_to_outer": [
+        1
+      ],
+      "uniform_epsilon": {
+        "highest_degree": 1,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "uniform_extreme_pole_witness": {
+        "coefficient": "2",
+        "column": 0,
+        "degree": 1,
+        "row": 1
+      }
+    },
+    {
+      "depth": 2,
+      "dimension": 4,
+      "proper_border": {
+        "highest_degree": 3,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "proper_depth_weights_inner_to_outer": [
+        2,
+        1
+      ],
+      "uniform_epsilon": {
+        "highest_degree": 2,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 0,
+        "offdiagonal_constant_terms": 1
+      },
+      "uniform_extreme_pole_witness": {
+        "coefficient": "-4",
+        "column": 2,
+        "degree": 0,
+        "row": 1
+      }
+    },
+    {
+      "depth": 3,
+      "dimension": 8,
+      "proper_border": {
+        "highest_degree": 7,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "proper_depth_weights_inner_to_outer": [
+        4,
+        2,
+        1
+      ],
+      "uniform_epsilon": {
+        "highest_degree": 3,
+        "lowest_degree": -1,
+        "lowest_offdiagonal_degree": -1,
+        "offdiagonal_constant_terms": 6
+      },
+      "uniform_extreme_pole_witness": {
+        "coefficient": "8",
+        "column": 6,
+        "degree": -1,
+        "row": 1
+      }
+    },
+    {
+      "depth": 4,
+      "dimension": 16,
+      "proper_border": {
+        "highest_degree": 15,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "proper_depth_weights_inner_to_outer": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "uniform_epsilon": {
+        "highest_degree": 4,
+        "lowest_degree": -2,
+        "lowest_offdiagonal_degree": -2,
+        "offdiagonal_constant_terms": 27
+      },
+      "uniform_extreme_pole_witness": {
+        "coefficient": "-16",
+        "column": 14,
+        "degree": -2,
+        "row": 1
+      }
+    },
+    {
+      "depth": 5,
+      "dimension": 32,
+      "proper_border": {
+        "highest_degree": 31,
+        "lowest_degree": 0,
+        "lowest_offdiagonal_degree": 1,
+        "offdiagonal_constant_terms": 0
+      },
+      "proper_depth_weights_inner_to_outer": [
+        16,
+        8,
+        4,
+        2,
+        1
+      ],
+      "uniform_epsilon": {
+        "highest_degree": 5,
+        "lowest_degree": -3,
+        "lowest_offdiagonal_degree": -3,
+        "offdiagonal_constant_terms": 110
+      },
+      "uniform_extreme_pole_witness": {
+        "coefficient": "32",
+        "column": 30,
+        "degree": -3,
+        "row": 1
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "changed_actual_inverse_lower_left_coefficient",
+      "reason": "actual inverse: A times B must be identity",
+      "rejected": true
+    }
+  ],
+  "scope": "Finite corroboration of FORMAL-DEGREE.md; no native helper, owned-storage, cost or compiler admission.",
+  "status": "PASS_EXACT_TOY_LAURENT_GAUGE_AND_DEGREE_WITNESSES",
+  "verification_guard": "All scientific predicates use explicit require/ValueError and remain active under -O.",
+  "verification_history": "An earlier assert-based optimized run did not execute its scientific predicates; this explicit-guard replay supersedes that evidence."
+}

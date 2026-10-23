@@ -1,0 +1,84 @@
+{
+  "calls": [
+    {
+      "events": 21449,
+      "max_intermediate_split_depth": 14,
+      "owned_centers": 8,
+      "owned_clears": 16,
+      "paid_profile": {
+        "1": 2201,
+        "2": 412,
+        "3": 510,
+        "4": 127,
+        "5": 40,
+        "8": 8
+      },
+      "split_jobs": 3481
+    },
+    {
+      "events": 21449,
+      "max_intermediate_split_depth": 23,
+      "owned_centers": 8,
+      "owned_clears": 16,
+      "paid_profile": {
+        "1": 2201,
+        "2": 412,
+        "3": 510,
+        "4": 127,
+        "5": 40,
+        "8": 8
+      },
+      "split_jobs": 3481
+    }
+  ],
+  "degree_envelope_boundary_shift_to_max_split_path": {
+    "-1": 22,
+    "0": 23,
+    "1": 20
+  },
+  "helper_outputs_retained": 816,
+  "max_split_factors_on_structural_output_path": 23,
+  "output_path_depth_histogram": {
+    "4": 26,
+    "5": 26,
+    "6": 26,
+    "7": 45,
+    "8": 93,
+    "9": 192,
+    "17": 27,
+    "18": 26,
+    "19": 88,
+    "20": 32,
+    "21": 41,
+    "22": 83,
+    "23": 335
+  },
+  "safe_recursion": "D_1 <= 1; D_(l+1) <= 23*D_l for integer D_l >= 1, for this homogeneous nested raw-unit envelope with synchronized lockstep owner matching and degree-zero fresh source inputs. A full mixed precompiler must additionally track complementary-source programs.",
+  "sample_child_support_bounds": {
+    "0": [
+      -1,
+      1
+    ],
+    "1": [
+      -23,
+      23
+    ],
+    "2": [
+      -46,
+      46
+    ],
+    "4": [
+      -92,
+      92
+    ],
+    "8": [
+      -184,
+      184
+    ]
+  },
+  "scope": "Structural support upper bound, including every retained helper and owned CLEAR. Scalar cancellation and child transpose/inverse coherence are not used. It is NOT a lower bound on actual degree, NOT proof that the constant coefficient is the desired endpoint, and NOT a compiled-bound certificate.",
+  "source_decoded_sha256": "cfcd36b40326d7a5815e1db5313444379b3fb756b27d5201c561574c085cc0dd",
+  "source_sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+  "status": "PASS_CHRONOLOGICAL_UPPER_ENVELOPE_ONLY",
+  "target_role_count": 1040
+}

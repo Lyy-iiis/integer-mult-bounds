@@ -1,0 +1,179 @@
+{
+  "actual_paid_profiles": {
+    "backward": {
+      "1": 2201,
+      "2": 412,
+      "3": 510,
+      "4": 127,
+      "5": 40,
+      "8": 8
+    },
+    "forward": {
+      "1": 2201,
+      "2": 412,
+      "3": 510,
+      "4": 127,
+      "5": 40,
+      "8": 8
+    }
+  },
+  "adjugate_both_orders": true,
+  "checker_sha256": "43c5535db451b1b846018668cb9f79fa4ae0a39ed5240dbbdef0d2cb1173d242",
+  "controls": {
+    "commuting_inputs_do_not_give_commuting_twists": true,
+    "omitted_inverse_minus_i": true,
+    "omitted_phase": true,
+    "square_is_not_free_diagonal_parity": true,
+    "wrong_phase_minus_one": true
+  },
+  "explicit_commutator_q1_1_q2_i": [
+    [
+      [],
+      []
+    ],
+    [
+      [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          -2
+        ]
+      ],
+      []
+    ]
+  ],
+  "extra_forward_scalar_phase_roles": 112,
+  "extra_rank_calls": 0,
+  "helper_order_four_scope": "Each canonical Gaussian helper separately has order four; direct sum needs no cross-helper commutation.",
+  "helper_widths": {
+    "4": 28,
+    "7": 7,
+    "8": 47,
+    "9": 326
+  },
+  "limitations": [
+    "Endpoint is the retained normalized main/helper interface, not an arbitrary physical-frame native map.",
+    "Physical transpose additionally needs symmetric address blocks and actual whole-supplier transpose implementation.",
+    "Fresh D factors must commute with the central query for the order-four assertion.",
+    "The phase-twisted square is not the retained free parity; unrelated twists need not commute.",
+    "Approximate paid children may destroy the native endpoint factorization; no recursive closure or precision improvement is proved.",
+    "Raw moment root and BIT admission are unchanged; no improved bound is claimed."
+  ],
+  "main_endpoint_order_four": true,
+  "paid_split": {
+    "1": 4656,
+    "2": 920,
+    "3": 1386
+  },
+  "paid_unsplit": {
+    "1": 4402,
+    "2": 824,
+    "3": 1020,
+    "4": 254,
+    "5": 80,
+    "8": 16
+  },
+  "psi_fourth_power": [
+    [
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      []
+    ],
+    [
+      [],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    ]
+  ],
+  "psi_square": [
+    [
+      [
+        [
+          2,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      []
+    ],
+    [
+      [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1,
+          -1,
+          0
+        ]
+      ],
+      [
+        [
+          2,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      ]
+    ]
+  ],
+  "ring": "Z[i][q,d1,d2,epsilon]/(q^4-1,d1^4-1,d2^4-1), all variables commute",
+  "source_path": "research/kappa-round3-warp-20261022/ACTUAL-WORD.json.gz",
+  "source_sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+  "status": "PASS_LOCAL_PHASE_TWIST_NOT_RECURSIVE_CLOSURE",
+  "targets": {
+    "4": 56,
+    "7": 14,
+    "8": 94,
+    "9": 652,
+    "17": 224
+  }
+}

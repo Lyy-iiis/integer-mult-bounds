@@ -1,0 +1,54 @@
+{
+  "checker_sha256": "1f4b2f5745ac6862f203625f6c8794b977d315ce23a0fef277e117a49bda9913",
+  "commutative_checks": [
+    {
+      "identities": [
+        "universal_two_query_expansion",
+        "universal_even_component",
+        "two_query_determinant",
+        "triangular_target",
+        "target_purely_odd",
+        "target_determinant",
+        "three_query_positive_control",
+        "phased_border_even_residual"
+      ],
+      "rejecting_controls": {
+        "call_phased_border_purely_odd": true,
+        "discard_two_query_even_component": true,
+        "omit_third_query": true
+      },
+      "ring": "formal_Laurent"
+    },
+    {
+      "identities": [
+        "universal_two_query_expansion",
+        "universal_even_component",
+        "two_query_determinant",
+        "triangular_target",
+        "target_purely_odd",
+        "target_determinant",
+        "three_query_positive_control",
+        "phased_border_even_residual"
+      ],
+      "rejecting_controls": {
+        "call_phased_border_purely_odd": true,
+        "discard_two_query_even_component": true,
+        "omit_third_query": true
+      },
+      "ring": "q4_equals_1"
+    }
+  ],
+  "limitations": [
+    "local exact algebra only; no native or recursive compiler admission",
+    "odd-character determinant extension is two by two only",
+    "no bound improvement or free third-query claim"
+  ],
+  "noncommutative_check": {
+    "identity": "N(I+NM)=N modulo N^2=M^2=0",
+    "reduced_difference": {},
+    "scope": "any positive matrix dimension; purely odd target; invertible even boundaries"
+  },
+  "proof_sha256": "ab3868cad0df0cccdcbe94cd645d9d7d2338e459a8a4f1c3bc64a7cd0344ce9d",
+  "schema": "two-query-even-obstruction-v1",
+  "status": "PASS_RESTRICTED_EXACT_TWO_QUERY_OBSTRUCTION"
+}

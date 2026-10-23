@@ -1,0 +1,17 @@
+{
+  "files": {
+    "PROOF.md": "45e98c715c720ffca4085f72e774bf14851842730bbda11f8edc6f5c38406a49",
+    "README.md": "50d31b08cd8def5e43f142bb568d8d2c0a4ac55709676ce74aa4e22509f4b05c",
+    "SOURCE-DEGREE.json": "7d352c7ca00656b7e86e6d168859b857afc65900d40c463d5b7f6a33701afafc",
+    "SOURCES.json": "83020263784fe335fcedc5b5ef353efbabeb7283459d3c4681f67b8a5584c417",
+    "check_source_degree.py": "71e58f787b959686188c159b8646aee0d80f338912f1f7c1c26856c17d2859d5",
+    "child/DEGREE-RECEIPT.json": "a70ce17bb7936e09ea8da618e6a5271818332769a0f3d0680c78724647734dc2",
+    "child/FORMAL-DEGREE.md": "f5a330befb5033ee7b57f21fa4d4026886437b31f34f80d43a0b20dd9dec4f4e",
+    "child/MANIFEST.json": "cfac4afc870fd3ad3baec3ca95a70ef4de978b0741ab19ecfcfa64b5af1b71cc",
+    "child/README.md": "ae1bc77c30ef1a240f76af6cb20068e05612d48d8edf0bfd04fc857ea6dd5472",
+    "child/check_degree.py": "ae61cfc6ba3750fb0f4eb75f63e776a6fd7d4b70541f5bf0efdba8033c6644f5"
+  },
+  "replay": "Both standard-library checkers passed with -I -O -B. Final toy receipt independently matched after explicit-guard repair.",
+  "scope": "Local core all-depth identities and actual-source structural upper degree envelope; no native inverse realization, fixed-N degree theorem, interpolation bit-cost admission or new bound.",
+  "status": "FROZEN_LOCAL_FORMAL_DEGREE_HANDOFF"
+}

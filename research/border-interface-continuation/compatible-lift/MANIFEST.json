@@ -1,0 +1,18 @@
+{
+  "active_files": {
+    "NOTES.md": "dc1bd3c602a06d869b26c245ad9f3c59301d30e247484414f6c3cdee0d0a3481",
+    "RESULT.json": "a45ad50caa824a76c2c6b40a5a0e1af039dccc7eed0035eb53aa289324cdd995",
+    "two-query/FINAL-RESULT.json": "e0be645c95f5edc951776216cbcf5c13133c94259be2fbdfad8ce35f705ceba2",
+    "two-query/PROOF.md": "ab3868cad0df0cccdcbe94cd645d9d7d2338e459a8a4f1c3bc64a7cd0344ce9d",
+    "two-query/verify.py": "1f4b2f5745ac6862f203625f6c8794b977d315ce23a0fef277e117a49bda9913",
+    "vendor/phase_twist.py": "43c5535db451b1b846018668cb9f79fa4ae0a39ed5240dbbdef0d2cb1173d242",
+    "verify_compatible.py": "aba76d5f57a1a0ba0199f11d583fa8e063b23631f7853f87a73acea012e85163"
+  },
+  "assistance": "Substantial OpenAI Codex and multi-agent assistance",
+  "author": "Yiyang (@Lyy-iiis)",
+  "historical_exclusion": "two-query/RESULT.json is a preliminary receipt; the final evidence is two-query/FINAL-RESULT.json.",
+  "license": "Apache-2.0",
+  "scope": "Exact compatible-lift identities, a restricted two-query obstruction, and fully charged retained-inventory correction bill. No recursive compiler or improved exponent.",
+  "source_word_sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+  "status": "FROZEN_LOCAL_SCOPED_THEORY_HANDOFF"
+}

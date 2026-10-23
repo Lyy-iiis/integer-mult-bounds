@@ -1,0 +1,68 @@
+{
+  "checker_sha256": "61bf8ee88b36acaadc357b4aa4554b9477b172ca073a4433373d200aa9910b56",
+  "exact_border_repair": {
+    "extra_H1": 112,
+    "rank_mass_deficit": 16,
+    "repaired_paid_rank_mass": 10766,
+    "strict_split_all_moment_ratio_bound": "T_t/P_t <= (4/3)^(t-1) * 10750/10766 < 1 for 0 <= t <= 1",
+    "target_rank_mass": 10750,
+    "two_full_paid_rank_mass": 10654
+  },
+  "orientations": {
+    "backward": {
+      "reconstruction": {
+        "coefficients": [
+          "-1",
+          "1"
+        ],
+        "swaps": 534,
+        "unequal_entry_frames": 43
+      },
+      "rejecting_controls": 4,
+      "source": {
+        "initial_persistent_dimension_sum": 171,
+        "paid_center_mass": 64,
+        "paid_climb_mass": 5263,
+        "paid_profile": {
+          "1": 2201,
+          "2": 412,
+          "3": 510,
+          "4": 127,
+          "5": 40,
+          "8": 8
+        },
+        "terminal_persistent_dimension_sum": 5434,
+        "warp_dimension_delta": 0
+      }
+    },
+    "forward": {
+      "reconstruction": {
+        "coefficients": [
+          "-1",
+          "1"
+        ],
+        "swaps": 534,
+        "unequal_entry_frames": 43
+      },
+      "rejecting_controls": 4,
+      "source": {
+        "initial_persistent_dimension_sum": 171,
+        "paid_center_mass": 64,
+        "paid_climb_mass": 5263,
+        "paid_profile": {
+          "1": 2201,
+          "2": 412,
+          "3": 510,
+          "4": 127,
+          "5": 40,
+          "8": 8
+        },
+        "terminal_persistent_dimension_sum": 5434,
+        "warp_dimension_delta": 0
+      }
+    }
+  },
+  "source_payload_sha256": "cfcd36b40326d7a5815e1db5313444379b3fb756b27d5201c561574c085cc0dd",
+  "source_sha256": "7679daa4ec6a40f56fc7f0202379a6f454310e94945aba4f48beaaaafb838d05",
+  "status": "PASS_FIXED_ITINERARY_RANK_MASS_ONLY"
+}
